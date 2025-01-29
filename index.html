@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ljekarna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ljekarna</h1>
+    <form action="process.php" method="post">
+        <div class="container">
+            <div class="column left">
+                <label class="header" for="artikal">Artikal</label>
+                <label for="andol">Andol</label>
+                <label for="aspirin">Aspirin</label>
+                <label for="vitaminc">Vitamin C</label>
+            </div>
+            <div class="column right">
+                <label class="header" for="kolicina">Kolicina</label>
+                <input type="number" name="andol" id="andol">
+                <input type="number" name="andol" id="aspirin">
+                <input type="number" name="vitaminc" id="vitaminc">
+            </div>
+        </div>
+        <span>Kako ste saznali za našu ljekarnu?</span>
+        <select name="select" id="select">
+            <option value="Ja sam redovan kuipac">Ja sam redovan kupac</option>
+            <option value="TV reklama">TV reklama</option>
+            <option value="Halo oglasi">Halo oglasi</option>
+        </select>
+        <input type="submit" value="Naruci">
+    </form>
+</body>
+</html>

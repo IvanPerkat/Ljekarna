@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+}
+.right input {
+    width: 50px;
+    margin-bottom: 5px;
+}
+.header {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+label {
+    margin: 0px 0px 7px 0px;
+}
+input[type=number] {
+    margin: 0px 0px 4px 0px;
+    height: 14px;
+    width: 30px;
+}
+select {
+    margin-top: 10px;
+}
+input[type="submit"] {
+    display: block;
+    width: 100px;
+    margin-top: 10px;
+}
