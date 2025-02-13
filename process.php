@@ -1,8 +1,8 @@
 <?php
 
-define("ANDOL",3.99);
-define("ASPIRIN",4.99);
-define("VITAMINC",5.99);
+define("ANDOL", 3.99);
+define("ASPIRIN", 4.99);
+define("VITAMINC", 5.99);
 
 $datum = date("d.m.Y");
 $vrijeme = date("H:i:s");
@@ -30,4 +30,3 @@ if (!($poruka == 1)) {
 } else {
     echo "<p>Hvala!</p>";
 }
-?>
